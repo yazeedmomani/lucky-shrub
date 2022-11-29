@@ -83,8 +83,7 @@ body {
 }
 
 header,
-main,
-footer {
+main {
   max-width: 140rem;
   margin: 0 auto;
 }
@@ -93,6 +92,19 @@ footer {
   display: flex;
   justify-content: space-around;
   margin-top: 6rem;
+}
+
+.footer {
+  background-color: #2d2d2d;
+  margin-top: 12rem;
+  padding: 4rem 0 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__copyright {
+  margin-top: 2rem;
+  color: #fff;
 }
 
 .header-logo {
