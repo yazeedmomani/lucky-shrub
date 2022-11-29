@@ -93,3 +93,18 @@ footer {
   display: block;
   width: 7.5rem;
 }
+
+.promotion {
+  margin-top: 4rem;
+  padding: 4rem 8rem;
+  width: 80%;
+}
+.promotion__header {
+  font-size: 4.8rem;
+  color: var(--color-primary);
+  margin-bottom: 4rem;
+}
+.promotion__paragraph {
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
