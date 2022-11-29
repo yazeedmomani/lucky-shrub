@@ -1,3 +1,9 @@
+:root {
+  --color-primary: #a63232;
+  --color-primary-light: #bf3939;
+  --color-black: #0d0d0d;
+}
+
 *,
 *::before,
 *::after {
