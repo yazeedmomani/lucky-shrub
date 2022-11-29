@@ -64,6 +64,8 @@ body {
 .nav {
   font-size: 1.8rem;
   margin-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
 }
 .nav__ul {
   display: flex;

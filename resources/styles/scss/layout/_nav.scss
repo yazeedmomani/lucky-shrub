@@ -1,6 +1,8 @@
 .nav {
   font-size: 1.8rem;
   margin-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
 
   &__ul {
     display: flex;
