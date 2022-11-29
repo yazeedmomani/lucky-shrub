@@ -57,3 +57,9 @@ section {
 // ******************************
 // NOT INCLUDED IN TEMPLATE
 // ******************************
+
+*:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1rem;
+  border-radius: .2rem;
+}

@@ -55,6 +55,12 @@ section {
   display: block;
 }
 
+*:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1rem;
+  border-radius: 0.2rem;
+}
+
 body {
   font-family: sans-serif;
   font-size: 1.6rem;
@@ -118,6 +124,7 @@ main {
   width: 80%;
 }
 .promotion__header {
+  font-family: serif;
   font-size: 4.8rem;
   color: var(--color-primary);
   margin-bottom: 4rem;
@@ -140,7 +147,8 @@ main {
   outline: 1px solid #fff;
 }
 .article__header {
-  font-size: 3.2rem;
+  font-family: serif;
+  font-size: 2.4rem;
   margin-bottom: 3rem;
 }
 .article__paragraph {
@@ -155,6 +163,7 @@ main {
   display: inline-block;
   padding: 1rem 2rem;
   border-radius: 0.8rem;
+  font-weight: bold;
 }
 .article__link:hover {
   color: var(--color-primary);
