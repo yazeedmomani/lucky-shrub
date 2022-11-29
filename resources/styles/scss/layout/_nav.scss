@@ -1,0 +1,23 @@
+.nav {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+
+  &__ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__link:visited,
+  &__link:link {
+    color: var(--color-black);
+  }
+
+  &__link:hover {
+    color: var(--color-primary-light);
+  }
+
+  &__link:active {
+    color: var(--color-primary);
+  }
+}
