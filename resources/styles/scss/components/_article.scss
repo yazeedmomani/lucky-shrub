@@ -1,0 +1,48 @@
+.article {
+  max-width: 40rem;
+  background-image: linear-gradient(
+    to bottom right,
+    var(--color-primary-light),
+    var(--color-primary)
+  );
+  padding: 4rem;
+  color: #fff;
+  border-radius: 2rem;
+  position: relative;
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+
+  & *:focus {
+    outline: 1px solid #fff;
+  }
+
+  &__header {
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+  }
+
+  &__paragraph {
+    line-height: 1.4;
+    margin-bottom: 4rem;
+  }
+
+  &__link:visited,
+  &__link:link {
+    position: absolute;
+    bottom: 2rem;
+    right: 4rem;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+  }
+
+  &__link:hover {
+    color: var(--color-primary);
+    background-color: #fff;
+  }
+
+  &__link:active {
+    color: var(--color-primary);
+    background-color: #eee;
+  }
+}
