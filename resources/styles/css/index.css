@@ -80,6 +80,13 @@ body {
   color: var(--color-primary);
 }
 
+header,
+main,
+footer {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
 .header-logo {
   display: block;
   width: 7.5rem;
